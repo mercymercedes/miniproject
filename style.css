@@ -25,6 +25,9 @@ button {
 .whiteButton{
   background-color: white;
 }
+.violetButton{
+  background-color: violet;
+}
 
 table, th, td {
   border: 1px solid black;

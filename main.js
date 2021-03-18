@@ -56,6 +56,10 @@ function outputData(person) {
   if ((new RegExp(/musician/gi)).test(person.profession)) {
     row.classList.add('musician');
   }
+  // Add a class to footballer
+  if ((new RegExp(/football/gi)).test(person.profession)) {
+    row.classList.add('football')
+  }
   // Add a class to Auto*
   if ((new RegExp(/author/gi)).test(person.profession)) {
     row.classList.add('auto');
