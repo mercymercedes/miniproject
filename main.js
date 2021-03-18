@@ -52,7 +52,10 @@ function outputData(person) {
   if ((new RegExp(/author/gi)).test(person.profession)) {
     row.classList.add('auto');
   }
-
+  // Add a class to Musician
+  if ((new RegExp(/musician/gi)).test(person.musician)) {
+    row.classlist.add('auto');
+  }
 }
 
 // The below function will get called when the window finishes loading our data
