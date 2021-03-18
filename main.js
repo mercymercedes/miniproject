@@ -54,7 +54,7 @@ function outputData(person) {
   }
   // Add a class to Musician
   if ((new RegExp(/musician/gi)).test(person.musician)) {
-    row.classlist.add('auto');
+    row.classlist.add('musician');
   }
 }
 
