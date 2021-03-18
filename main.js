@@ -52,13 +52,13 @@ function outputData(person) {
   if ((new RegExp(/politician/gi)).test(person.profession)) {
     row.classList.add('politician')
   }
-  // Add a class to Auto*
-  if ((new RegExp(/author/gi)).test(person.profession)) {
-    row.classList.add('auto');
-  }
   // Add a class to Musician
   if ((new RegExp(/musician/gi)).test(person.profession)) {
     row.classList.add('musician');
+  }
+  // Add a class to Auto*
+  if ((new RegExp(/author/gi)).test(person.profession)) {
+    row.classList.add('auto');
   }
 }
 
