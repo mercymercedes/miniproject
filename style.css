@@ -28,6 +28,9 @@ button {
 .violetButton{
   background-color: violet;
 }
+.purpleButton{
+  background-color: purple;
+}
 
 table, th, td {
   border: 1px solid black;
