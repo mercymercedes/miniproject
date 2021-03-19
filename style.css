@@ -31,6 +31,9 @@ button {
 .purpleButton{
   background-color: purple;
 }
+.pinkButton{
+  background-color: pink;
+}
 
 table, th, td {
   border: 1px solid black;
