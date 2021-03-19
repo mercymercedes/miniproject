@@ -65,8 +65,8 @@ function outputData(person) {
     row.classList.add('writer')
   }
   // Add a class to Born in Year 1945
-  if ((new RegExp(/1945/gi)).test(person.birthyear)) {
-    row.classList.add('1945')
+  if ((new RegExp(/1922/gi)).test(person.birthyear)) {
+    row.classList.add('1922')
   }
   // Add a class to Auto*
   if ((new RegExp(/author/gi)).test(person.profession)) {
